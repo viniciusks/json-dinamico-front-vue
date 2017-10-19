@@ -1,0 +1,115 @@
+{
+      "configuracoes" :{
+          "loja" : {
+              "dominio" : "main.api.ootzdev-server",
+              "url" : "http://main.api.ootzdev-server",
+              "cdn_enable" : false
+          },
+          "banners" : [
+              {
+                  "id" : "1",
+                  "nome" : "Tipo 1",
+                  "width" : "640",
+                  "height" : "480"
+              },
+              {
+                  "id" : "2",
+                  "nome" : "Tipo 2",
+                  "width" : "480",
+                  "height" : "640"
+              }
+          ],
+          "imagens" : {
+              "produtos" : {
+                  "zoom" : "1000x1000",
+                  "detalhe" : "500x500",
+                  "listagem" : "250x250",
+                  "thumb" : "100x100"
+              }
+          },
+          "cache" : {
+              "tempo_expiracao" : 10
+          },
+          "produtos" : {
+              "modo_agrupado" : 1
+          },
+          "frete" : {
+              "cep_origem" : "81690410",
+              "custo_extra_produto" : 2.50,
+              "custo_extra_pedido" : 2.50,
+              "prazo_packing" : 3
+          },
+          "correios" : {
+              "login" : "11349425",
+              "senha" : "13730727",
+              "servico_mao_propria" : "N",
+              "servico_aviso_recebimento" : "N",
+              "fator_cubagem" : 6000,
+              "peso_maximo" : 30,
+              "servicos" : [
+                  {
+                      "id" : 1,
+                      "nome": "Sedex",
+                      "codigo" : "40010",
+                      "status" : 1
+                  },
+                  {
+                      "id" : 2,
+                      "nome": "PAC",
+                      "codigo" : "41106",
+                      "status" : 1
+                  },
+                  {
+                      "id" : 3,
+                      "nome": "Sedex 10",
+                      "codigo" : "40215",
+                      "status" : 1
+                  }
+              ],
+              "nome" : "" ,
+              "documento" : "",
+              "inscricao_estadual" : "",
+              "endereco_completo" : "",
+              "cidade" : "",
+              "estado" : "",
+              "placa" : "",
+              "placa_uf" : ""
+          },
+          "pagamento" : {
+              "cartoes" : {
+                  "permite_desconto_avista" : 1,
+                  "valor_minimo_compra" : 100.00,
+                  "valor_minimo_parcela" : 30.00,
+                  "quantidade_parcelas_sem_juros" : 6,
+                  "quantidade_parcelas_com_juros" : 18,
+                  "taxa_juros" : 2.90,
+                  "identificacao_fatura": "Loja do Seu Kraus"
+              },
+              "boleto" : {
+                  "permite_desconto_avista" : 1,
+                  "valor_minimo_compra" : 150.00,
+                  "dias_uteis_vencimento" : 3,
+                  "codigo_banco": "341",
+                  "instrucoes": "Não receber após o vencimento, não aceitar valor menor"
+              },
+              "deposito" : {
+                  "permite_desconto_avista" : 1,
+                  "valor_minimo_compra" : 150.00,
+                  "contas" : [
+                      {
+                          "nome" : "Itau Agencia Portão",
+                          "agencia" : "3720",
+                          "conta" : "23995-7",
+                          "razao_social" : "Aguinelo",
+                          "cnpj" : "05176370906",
+                          "imagem" : ""
+                      }
+                  ]
+              },
+              "pagseguro" : {
+                  "permite_desconto_avista" : 1,
+                  "valor_minimo_compra" : 150.00
+              }
+          }
+      }
+  }
