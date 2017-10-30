@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <nav>
-      <a href="#/" class="btn btn-primary">Home</a>
-      <a href="#/form" class="btn btn-primary">Create form</a>
-    </nav>
     <router-view></router-view>
   </div>
 </template>

@@ -1,0 +1,129 @@
+{
+    "configuracoes" : {
+        "produtos" : {
+            "modo_agrupado" : 1.0
+        },
+        "banners" : [ 
+            {
+                "height" : "480",
+                "id" : "1",
+                "nome" : "Tipo 1",
+                "width" : "640"
+            }, 
+            {
+                "height" : "640",
+                "id" : "2",
+                "nome" : "Tipo 2",
+                "width" : "480"
+            }
+        ],
+        "cache" : {
+            "tempo_expiracao" : 10.0
+        },
+        "correios" : {
+            "cidade" : "",
+            "endereco_completo" : "",
+            "senha" : "13730727",
+            "servico_mao_propria" : "N",
+            "documento" : "",
+            "login" : "11349425",
+            "nome" : "",
+            "placa" : "",
+            "estado" : "",
+            "inscricao_estadual" : "",
+            "servico_aviso_recebimento" : "N",
+            "servicos" : [ 
+                {
+                    "id" : 1.0,
+                    "nome" : "Sedex",
+                    "status" : 1.0,
+                    "codigo" : "40010"
+                }, 
+                {
+                    "nome" : "PAC",
+                    "status" : 1.0,
+                    "codigo" : "41106",
+                    "id" : 2.0
+                }, 
+                {
+                    "codigo" : "40215",
+                    "id" : 3.0,
+                    "nome" : "Sedex 10",
+                    "status" : 1.0
+                }
+            ],
+            "fator_cubagem" : 6000.0,
+            "peso_maximo" : 30.0,
+            "placa_uf" : ""
+        },
+        "frete" : {
+            "cep_origem" : "",
+            "custo_extra_pedido" : 2.5,
+            "custo_extra_produto" : 2.5,
+            "prazo_packing" : 3.0
+        },
+        "imagens" : {
+            "produtos" : {
+                "zoom" : "1000x1000",
+                "detalhe" : "500x500",
+                "listagem" : "250x250",
+                "thumb" : "100x100"
+            }
+        },
+        "loja" : {
+            "cdn_enable" : false,
+            "dominio" : "main.api.ootzdev-server",
+            "url" : "http://main.api.ootzdev-server"
+        },
+        "pagamento" : {
+            "boleto" : {
+                "codigo_banco" : "341",
+                "dias_uteis_vencimento" : 3.0,
+                "instrucoes" : "Não receber após o vencimento, não aceitar valor menor",
+                "permite_desconto_avista" : 1.0,
+                "valor_minimo_compra" : 150.0
+            },
+            "cartoes" : {
+                "permite_desconto_avista" : 1.0,
+                "quantidade_parcelas_com_juros" : 18.0,
+                "quantidade_parcelas_sem_juros" : 12.0,
+                "taxa_juros" : 1.98,
+                "valor_minimo_compra" : 100.0,
+                "valor_minimo_parcela" : 30.0,
+                "identificacao_fatura" : ""
+            },
+            "deposito" : {
+                "contas" : [ 
+                    {
+                        "conta" : "",
+                        "imagem" : "",
+                        "nome" : "",
+                        "razao_social" : "",
+                        "agencia" : "",
+                        "cnpj" : ""
+                    }
+                ],
+                "permite_desconto_avista" : 1.0,
+                "valor_minimo_compra" : 150.0
+            },
+            "pagseguro" : {
+                "permite_desconto_avista" : 1.0,
+                "valor_minimo_compra" : 150.0
+            }
+        }
+    },
+    "id" : "",
+    "key" : "",
+    "mongodb" : {
+        "password" : "ootz",
+        "port" : "27017",
+        "user" : "ootz",
+        "host" : "192.168.100.100"
+    },
+    "mysql" : {
+        "port" : "3306",
+        "user" : "ootz",
+        "host" : "192.168.100.100",
+        "password" : "ootz"
+    }
+}
